@@ -10,19 +10,16 @@
           "phoneNumber": "{{Contact.Attribute.Journey_Test_DE.toPhoneNumber}}",
           "message": "{{Contact.Attribute.Journey_Test_DE.smsMessage}}"
         } ],
-        "url": "https://test-sms-445915.ue.r.appspot.com/custom-activity"
+        "url": "https://sfmc-twilio-sms.vercel.app/custom-activity"
       }
     },
     "configurationArguments": {
-      "publish": {
-          "url": "https://requestbin.whapi.cloud/16b3otq1/publish"
-      }
   },
     "metaData": {
-      "icon": "https://test-sms-445915.ue.r.appspot.com/icon.png",
+      "icon": "https://sfmc-twilio-sms.vercel.app/icon.png",
       "category": "message",
       "iconSmall": null,
-      "original_icon": "https://test-sms-445915.ue.r.appspot.com/icon.png",
+      "original_icon": "https://sfmc-twilio-sms.vercel.app/icon.png",
       "isConfigured": true
     },
     "editable": true,
