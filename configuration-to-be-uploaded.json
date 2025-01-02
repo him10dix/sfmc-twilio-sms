@@ -1,0 +1,38 @@
+{
+    "name": "Twilio-11111",
+    "id": null,
+    "key": "REST-11",
+    "type": "REST",
+    "arguments": {
+      "execute": {
+        "inArguments": [ {
+          "key": "{{Contact.Key}}",
+          "phoneNumber": "{{Contact.Attribute.Journey_Test_DE.toPhoneNumber}}",
+          "message": "{{Contact.Attribute.Journey_Test_DE.smsMessage}}"
+        } ],
+        "url": "https://test-sms-445915.ue.r.appspot.com/custom-activity"
+      }
+    },
+    "configurationArguments": {
+      "publish": {
+          "url": "https://requestbin.whapi.cloud/16b3otq1/publish"
+      }
+  },
+    "metaData": {
+      "icon": "https://test-sms-445915.ue.r.appspot.com/icon.png",
+      "category": "message",
+      "iconSmall": null,
+      "original_icon": "https://test-sms-445915.ue.r.appspot.com/icon.png",
+      "isConfigured": true
+    },
+    "editable": true,
+    "outcomes": [
+      {
+        "next": "WAITBYDURATION-1",
+        "metaData": {
+          "invalid": false
+        }
+      }
+    ],
+    "errors": null
+  }
